@@ -29,3 +29,7 @@ znc/conf/
 *.swo
 
 itunes/iTunesSetup.exe
+cm-12.1-20150517-NIGHTLY-hammerhead.zip
+android-sdk_r24.1.2-linux.tgz
+jdk-8u40-linux-x64.tar.gz
+*.apk

@@ -1,0 +1,6 @@
+FROM      ionic
+
+RUN       ionic start TestApp blank
+WORKDIR   TestApp
+RUN       ionic platform add android
+
