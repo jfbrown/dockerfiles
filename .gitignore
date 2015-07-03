@@ -29,7 +29,12 @@ znc/conf/
 *.swo
 
 itunes/iTunesSetup.exe
+
+# Big files
 cm-12.1-20150517-NIGHTLY-hammerhead.zip
 android-sdk_r24.1.2-linux.tgz
+android-sdk_r24.2-linux.tgz
+android-sdk-linux
 jdk-8u40-linux-x64.tar.gz
 *.apk
+adb.tar

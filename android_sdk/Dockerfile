@@ -6,7 +6,7 @@ RUN       apt-get update && apt-get install -y openjdk-7-jdk ant expect \
 
 WORKDIR   /opt
 
-ENV       ANDROID_SDK android-sdk_r24.1.2-linux.tgz
+ENV       ANDROID_SDK android-sdk_r24.2-linux.tgz
 COPY      $ANDROID_SDK $ANDROID_SDK
 RUN       tar -xf $ANDROID_SDK
 RUN       rm $ANDROID_SDK

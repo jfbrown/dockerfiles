@@ -1,0 +1,6 @@
+FROM 				library/busybox
+
+COPY				./build/cjdroute /usr/local/bin/cjdroute
+
+ENTRYPOINT 	["/usr/local/bin/cjdroute"]
+

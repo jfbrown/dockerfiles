@@ -1,0 +1,14 @@
+FROM 				library/debian:jessie
+
+RUN   			apt-get update -y && apt-get install -y nodejs git build-essential
+
+WORKDIR 		/src
+RUN 				git clone https://github.com/cjdelisle/cjdns.git cjdns
+
+RUN 				apt-get install -y python
+
+WORKDIR 		/src/cjdns
+RUN 				./do
+
+ENTRYPOINT	/src/cjdroute
+
